@@ -1,5 +1,5 @@
-const valorCompra = parseInt(prompt("Digite o valor da compra:"));
-const porcentagemDesconto = parseInt(prompt("Digite a porcentagem de desconto:"));
+const valorCompra = parseFloat(prompt("Digite o valor da compra:"));
+const porcentagemDesconto = parseFloat(prompt("Digite a porcentagem de desconto:"));
 
 const valorDesconto = (valorCompra * porcentagemDesconto) / 100;
 const total = valorCompra - valorDesconto;
