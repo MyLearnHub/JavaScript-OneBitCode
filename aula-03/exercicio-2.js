@@ -1,12 +1,8 @@
-let number = parseInt(prompt("Digite um número para ver sua fatorial: "));
-console.log("existo");
-
+let num = parseInt(prompt("Digite um número para ver sua fatorial: "));
 let fatorial = 1;
 
-for (let i = 1; i <= number; i++) {
+for (let i = 1; i <= num; i++) {
   fatorial *= i;
 }
 
-alert(`O fatorial de ${number} é ${fatorial}`);
-
-console.log(`O fatorial de ${number} é ${fatorial}`);
+alert(`O fatorial de ${num} é ${fatorial}`);
